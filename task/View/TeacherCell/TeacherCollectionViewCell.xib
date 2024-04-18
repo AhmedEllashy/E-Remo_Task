@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TeacherCollectionViewCell" customModule="task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="226"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="226"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVu-3Z-Xdp">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="226"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p1" translatesAutoresizingMaskIntoConstraints="NO" id="KMW-Tx-Nt6">
+                                <rect key="frame" x="54" y="11" width="71" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="efy-fH-mLT"/>
+                                    <constraint firstAttribute="width" constant="71" id="fn1-hp-CNQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahmad Ellashy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qq6-Px-iyj">
+                                <rect key="frame" x="35.666666666666664" y="96" width="111.66666666666669" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4500 EGP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIA-Uo-IMl">
+                                <rect key="frame" x="62.666666666666671" y="124.99999999999999" width="57.666666666666671" height="14.333333333333329"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Math Subject" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvQ-hj-rxr">
+                                <rect key="frame" x="54" y="152" width="75" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ma1-Si-DSl">
+                                <rect key="frame" x="21" y="180" width="141" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1r-sq-7Zd">
+                                        <rect key="frame" x="53" y="11" width="35" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mi2-YE-PtQ">
+                                        <rect key="frame" x="30" y="9.9999999999999982" width="23" height="20.666666666666664"/>
+                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstItem="mi2-YE-PtQ" firstAttribute="top" secondItem="Ma1-Si-DSl" secondAttribute="top" constant="9" id="14U-Oy-a68"/>
+                                    <constraint firstItem="g1r-sq-7Zd" firstAttribute="centerY" secondItem="Ma1-Si-DSl" secondAttribute="centerY" id="9Fv-NC-Sso"/>
+                                    <constraint firstItem="g1r-sq-7Zd" firstAttribute="leading" secondItem="mi2-YE-PtQ" secondAttribute="trailing" id="TTO-7r-ZGS"/>
+                                    <constraint firstItem="g1r-sq-7Zd" firstAttribute="centerX" secondItem="Ma1-Si-DSl" secondAttribute="centerX" id="VvM-Ye-SQq"/>
+                                    <constraint firstAttribute="bottom" secondItem="mi2-YE-PtQ" secondAttribute="bottom" constant="9" id="Z0M-Nk-2Tj"/>
+                                    <constraint firstAttribute="height" constant="40" id="c95-LR-3xx"/>
+                                    <constraint firstItem="mi2-YE-PtQ" firstAttribute="leading" secondItem="Ma1-Si-DSl" secondAttribute="leading" constant="30" id="ngW-S7-c4z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="KMW-Tx-Nt6" firstAttribute="top" secondItem="PVu-3Z-Xdp" secondAttribute="top" constant="11" id="3Mi-FP-PQD"/>
+                            <constraint firstItem="Ma1-Si-DSl" firstAttribute="top" secondItem="IvQ-hj-rxr" secondAttribute="bottom" constant="13" id="6XG-SX-lPp"/>
+                            <constraint firstItem="qq6-Px-iyj" firstAttribute="top" secondItem="KMW-Tx-Nt6" secondAttribute="bottom" constant="14" id="Tzd-2u-OiQ"/>
+                            <constraint firstItem="Ma1-Si-DSl" firstAttribute="leading" secondItem="PVu-3Z-Xdp" secondAttribute="leading" constant="21" id="c1d-iz-n3F"/>
+                            <constraint firstAttribute="trailing" secondItem="Ma1-Si-DSl" secondAttribute="trailing" constant="21" id="dgG-O9-Wpy"/>
+                            <constraint firstItem="IvQ-hj-rxr" firstAttribute="centerX" secondItem="PVu-3Z-Xdp" secondAttribute="centerX" id="hOR-0K-wJn"/>
+                            <constraint firstItem="qq6-Px-iyj" firstAttribute="leading" secondItem="PVu-3Z-Xdp" secondAttribute="leading" constant="35.666666666666657" id="j7G-eI-j2N"/>
+                            <constraint firstItem="KMW-Tx-Nt6" firstAttribute="leading" secondItem="PVu-3Z-Xdp" secondAttribute="leading" constant="54" id="l5g-Iz-iOT"/>
+                            <constraint firstAttribute="trailing" secondItem="KMW-Tx-Nt6" secondAttribute="trailing" constant="58" id="sQr-Q9-SWH"/>
+                            <constraint firstItem="IvQ-hj-rxr" firstAttribute="top" secondItem="CIA-Uo-IMl" secondAttribute="bottom" constant="12.666666666666686" id="sd5-m0-UYr"/>
+                            <constraint firstItem="qq6-Px-iyj" firstAttribute="centerX" secondItem="PVu-3Z-Xdp" secondAttribute="centerX" id="wFM-Fw-j9Z"/>
+                            <constraint firstItem="CIA-Uo-IMl" firstAttribute="centerX" secondItem="PVu-3Z-Xdp" secondAttribute="centerX" id="xFW-BD-GBQ"/>
+                            <constraint firstItem="CIA-Uo-IMl" firstAttribute="top" secondItem="qq6-Px-iyj" secondAttribute="bottom" constant="8" symbolic="YES" id="xdE-Zs-aL1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="PVu-3Z-Xdp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0jb-8n-dsq"/>
+                <constraint firstAttribute="trailing" secondItem="PVu-3Z-Xdp" secondAttribute="trailing" id="AH7-9M-i2H"/>
+                <constraint firstAttribute="bottom" secondItem="PVu-3Z-Xdp" secondAttribute="bottom" id="SAB-Zg-M0V"/>
+                <constraint firstItem="PVu-3Z-Xdp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Yc4-Bp-mkT"/>
+            </constraints>
+            <size key="customSize" width="183" height="226"/>
+            <connections>
+                <outlet property="bookImageView" destination="mi2-YE-PtQ" id="9w5-zD-kSZ"/>
+                <outlet property="bookLabel" destination="g1r-sq-7Zd" id="q8A-uj-rcO"/>
+                <outlet property="bookView" destination="Ma1-Si-DSl" id="oHj-nq-fdR"/>
+                <outlet property="teacherCostLabel" destination="CIA-Uo-IMl" id="d15-nv-BHA"/>
+                <outlet property="teacherImageView" destination="KMW-Tx-Nt6" id="jkh-rA-qpW"/>
+                <outlet property="teacherNameLabel" destination="qq6-Px-iyj" id="L5w-WJ-2jm"/>
+                <outlet property="teacherSubjectLabel" destination="IvQ-hj-rxr" id="qfO-NU-8ms"/>
+            </connections>
+            <point key="canvasLocation" x="110.68702290076335" y="49.295774647887328"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bookmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="p1" width="1200" height="992"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
